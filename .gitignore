@@ -1,0 +1,38 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django database
+db.sqlite3
+
+# Django migrations (optional to include, often yes for small teams)
+**/migrations/*.py
+**/migrations/*.pyc
+!**/migrations/__init__.py
+
+# Environment / secrets
+.env
+*.env
+
+# Virtualenv (if you ever use one outside Docker)
+venv/
+env/
+
+# Docker-related files (ignore local volumes, logs)
+*.log
+*.pid
+docker-compose.override.yml
+*.sqlite3
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# PyCharm
+*.iml
