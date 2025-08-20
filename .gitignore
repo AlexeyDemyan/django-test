@@ -7,9 +7,9 @@ __pycache__/
 db.sqlite3
 
 # Django migrations (optional to include, often yes for small teams)
-**/migrations/*.py
-**/migrations/*.pyc
-!**/migrations/__init__.py
+# **/migrations/*.py
+# **/migrations/*.pyc
+# !**/migrations/__init__.py
 
 # Environment / secrets
 .env
