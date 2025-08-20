@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    container_name: django_test
+    command: python manage.py runserver 0.0.0.0:80
+    volumes:
+      - .:/app
+    ports:
+      - "80:80"
